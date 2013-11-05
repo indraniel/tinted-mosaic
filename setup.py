@@ -3,8 +3,9 @@
 from setuptools import setup, find_packages
 import sys
 
-if not (sys.version_info.major == 2 and sys.version_info.minor == 7):
-    print "Sorry, Python 3 is not support yet, please use Python 2.7.x"
+if not (sys.version_info[0]== 2 and sys.version_info[1] == 7):
+    print "Sorry, only python 2.7.x is supported for mosaic"
+    sys.exit(1)
 
 
 with open('README.md') as f:
