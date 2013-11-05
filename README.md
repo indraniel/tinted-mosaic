@@ -1,6 +1,6 @@
-In the neverending quest to find alternative desktop background to satisfy my
+In the neverending quest to find alternative desktop backgrounds to satisfy my
 fickle mind, I came across [Delta909's Pixel Matrix wallpaper][1].  Inspired by
-this, I made this toy: `pixel-art`. Now I can take any arbitrary image, and
+that, I made this toy: `pixel-art`. Now I can take any arbitrary image, and
 "pixel matrix"-ify it.  For example:
 
 **Before:**
