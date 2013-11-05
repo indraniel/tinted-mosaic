@@ -11,7 +11,7 @@ that, I made this toy: `pixel-art`. Now I can take any arbitrary image, and
 
 ![Umbrella Image - "Mosaic-ified"](https://raw.github.com/indraniel/tinted-mosaic/master/tests/images/umbrellas-grid.png)
 
-_(Images taken from [Architizer: The Umbrellas of Águeda][2])_
+_(Image taken from [Architizer: The Umbrellas of Águeda][2])_
 
 These "pixel matrix" images can be created by simply taking the original image
 and superimposing two additional layers on top of it: a grid of white squares
