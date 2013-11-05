@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
+import sys
+
+if not (sys.version_info.major == 2 and sys.version_info.minor == 7):
+    print "Sorry, Python 3 is not support yet, please use Python 2.7.x"
 
 
 with open('README.md') as f:
