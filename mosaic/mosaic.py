@@ -41,7 +41,6 @@ class PixelArt(object):
         for x in range(width):
             for y in range(height):
                 (b, g, r, a) = pixels[x, y]
-#                print '[x:%d, y:%d] - b:%d g:%d r:%d a:%d' % (x, y, b, g, r, a)
 
                 # On a "grid" border, draw the black grid line
                 if (x % self.grid_width == 0 or y % self.grid_height == 0):
