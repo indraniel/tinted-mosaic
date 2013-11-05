@@ -18,5 +18,6 @@ setup(
     author_email='indraniel@gmail.com',
     url='https://github.com/indraniel/tinted-mosaic',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    scripts=['bin/pixel-art'],
+    packages=find_packages(exclude=('tests', 'docs', 'bin'))
 )

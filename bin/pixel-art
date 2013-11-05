@@ -1,0 +1,60 @@
+#!/usr/bin/env python
+
+import argparse
+from mosaic import PixelArt
+
+def setup_args(parser):
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        help = "echo the string you use here",
+        action = "store_true"
+    )
+
+    parser.add_argument(
+        "image",
+        help = "Input image to gridify"
+    )
+
+    parser.add_argument(
+        "--grid-width",
+        help = "Width of grid [in pixels] (default = 7)",
+        type = int,
+        default = 7
+    )
+
+    parser.add_argument(
+        "--grid-height",
+        help = "Height of grid [in pixels] (default = 7)",
+        type = int,
+        default = 7
+    )
+
+    parser.add_argument(
+        "--min-opacity",
+        help = "Min opacity value [0-255] (default = 20)",
+        type = int,
+        default = 20
+    )
+
+    parser.add_argument(
+        "--max-opacity",
+        help = "Max opacity value [0-255] (default = 70)",
+        type = int,
+        default = 70
+    )
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    setup_args(parser)
+    args = parser.parse_args()
+
+    pa = PixelArt(
+        grid_width  = args.grid_width,
+        grid_height = args.grid_height,
+        min_opacity = args.min_opacity,
+        max_opacity = args.max_opacity
+    )
+
+    grid_file = pa.gridify(args.image)
+    print 'Saved gridified image to: %s' % grid_file
