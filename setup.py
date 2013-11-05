@@ -21,4 +21,6 @@ setup(
     scripts=['bin/pixel-art'],
     install_requires=['nose==1.3.0','Pillow==2.2.1'],
     packages=find_packages(exclude=('tests', 'docs')),
+    package_data={ '': ['*.md', 'LICENSE'], },
+    include_package_data=True
 )
