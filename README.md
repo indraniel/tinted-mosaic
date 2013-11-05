@@ -50,6 +50,8 @@ on your system, simply do the following:
 Dependencies
 ------------
 
+_python version 2.7.x is required to install this package._
+
 This project is powered by the popular [Pillow][9] and [nose][10] libraries.
 These dependencies are automatically installed if you follow the build instructions.
 
