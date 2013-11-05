@@ -13,9 +13,14 @@ this, I made this toy: `pixel-art`. Now I can take any arbitrary image, and
 
 _(Images taken from [Architizer: The Umbrellas of Águeda][2])_
 
-This project was also an excuse to better appreciate how [alpha compositing][11]
-works, and as well as to educate myself on how Python projects are structured.
-As such, there are a few inefficiencies and idiosyncrasies to this code.
+These "pixel matrix" images can be created by simply taking the original image
+and superimposing two additional layers on top of it: a grid of white squares
+with random opacity and a grid of black squares with random opacity.
+
+This project was an excuse to better appreciate how the superimposing process
+(also known as [alpha compositing][11]) works, and as well as to educate myself
+on how Python projects are structured.  As such, there are a few inefficiencies
+and idiosyncrasies to this code.
 
 The alpha compositing was implmented from scratch in Python, making the image
 processing slow.  The "proper" way to setup a Python project is unfortunately
