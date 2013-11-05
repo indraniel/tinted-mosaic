@@ -3,3 +3,6 @@ init:
 
 test:
 	nosetests tests
+
+clean:
+	rm mosaic/*.pyc tests/*.pyc
