@@ -33,10 +33,13 @@ I've made my own flavored setup based upon the following opinionated essays:
 Build Instructions
 ==================
 
-It's probably best to install via [virtualenv][12].  Once a virtualenv is
-activated, simply:
+It's probably best to install via [virtualenv][13].  If virtualenv is available
+on your system, simply do the following:
 
     $ git clone https://github.com/indraniel/tinted-mosaic
+    $ cd tinted-mosaic
+    $ virtualenv venv
+    $ source venv/bin/activate
     $ python setup.py install
 
 Dependencies
