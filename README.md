@@ -108,3 +108,4 @@ TODOs
 [10]: https://nose.readthedocs.org/en/latest/ 
 [11]: http://dev.w3.org/fxtf/compositing-1/
 [12]: http://guide.python-distribute.org/
+[13]: http://www.virtualenv.org/en/latest/
