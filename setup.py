@@ -16,7 +16,7 @@ with open('LICENSE') as f:
 
 setup(
     name='mosaic',
-    version='0.0.1',
+    version='0.2.0',
     description="Create images similar to Delta909's Pixel Matrix on arbitrary pictures",
     long_description=readme,
     author='Indraniel Das',
