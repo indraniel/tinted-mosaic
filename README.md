@@ -15,7 +15,7 @@ _(Images taken from [Architizer: The Umbrellas of Águeda][2])_
 
 This project was also an excuse to better appreciate how [alpha compositing][11]
 works, and as well as to educate myself on how Python projects are structured.
-As such, there are a few inefficiencies and idosynacrasies to this code.
+As such, there are a few inefficiencies and idiosyncrasies to this code.
 
 The alpha compositing was implmented from scratch in Python, making the image
 processing slow.  The "proper" way to setup a Python project is unfortunately
